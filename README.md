@@ -1,7 +1,8 @@
 # **Walmart Sales Analysis: End-to-End Data Pipeline & Dashboard**
 
 ## **📌 Project Overview**
-This project is an **end-to-end data pipeline and analysis** of Walmart sales data. The workflow involves **data extraction, cleaning, transformation, database storage, SQL querying, and dashboard visualization**. The goal is to uncover key business insights related to **sales trends, product performance, customer behavior, and profitability**.
+
+This project is an **end-to-end data pipeline and analysis** of Walmart sales data, leveraging the **Kaggle API** to source the dataset. The workflow begins with automated **data extraction from Kaggle using the API, followed by data cleaning and transformation** in Python to ensure consistency and accuracy. The processed data is then **stored in a relational database, enabling efficient SQL querying** for deeper analysis. Finally, insights on **sales trends, product performance, customer behavior, and profitability** are visualized through an **interactive dashboard**, providing a comprehensive view of business performance.
 
 ---
 
@@ -41,7 +42,7 @@ This project is an **end-to-end data pipeline and analysis** of Walmart sales da
 - **Python:** pandas, numpy, sqlalchemy (for MySQL integration)
 - **MySQL & MySQL Workbench:** Data storage & querying
 - **Power BI:** Dashboard creation, DAX calculations
-- **Kaggle:** Dataset source
+- **Kaggle API:** Automated dataset extraction directly from Kaggle
 
 ---
 
